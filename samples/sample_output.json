@@ -1,0 +1,348 @@
+{
+  "deck_filename": "Pitch Deck.pdf",
+  "company_name": "Snapchat",
+  "analysis_timestamp": "2025-12-31T11:43:19.695395",
+  "extracted_claims": [
+    {
+      "claim_id": "claim_0001",
+      "text": "Created in 2011 by Evan Spiegel and Bobby Murphy",
+      "category": "team_background",
+      "source_page": 1,
+      "context": "",
+      "confidence": 1.0
+    },
+    {
+      "claim_id": "claim_0002",
+      "text": "Over 50 million Snaps viewed daily by end of 2012",
+      "category": "growth_metrics",
+      "source_page": 1,
+      "context": "",
+      "confidence": 1.0
+    },
+    {
+      "claim_id": "claim_0003",
+      "text": "Over 700 million Snaps viewed daily (July 2014)",
+      "category": "growth_metrics",
+      "source_page": 1,
+      "context": "",
+      "confidence": 1.0
+    },
+    {
+      "claim_id": "claim_0004",
+      "text": "Over 1 billion Stories viewed daily (July 2014)",
+      "category": "growth_metrics",
+      "source_page": 1,
+      "context": "",
+      "confidence": 1.0
+    },
+    {
+      "claim_id": "claim_0005",
+      "text": "50% of users are in North America",
+      "category": "growth_metrics",
+      "source_page": 1,
+      "context": "",
+      "confidence": 1.0
+    },
+    {
+      "claim_id": "claim_0006",
+      "text": "48% of users are aged 13-17",
+      "category": "growth_metrics",
+      "source_page": 1,
+      "context": "",
+      "confidence": 1.0
+    },
+    {
+      "claim_id": "claim_0007",
+      "text": "Chat and Here features released in May 2014",
+      "category": "other",
+      "source_page": 1,
+      "context": "",
+      "confidence": 1.0
+    },
+    {
+      "claim_id": "claim_0008",
+      "text": "Our Story feature launched in July 2014",
+      "category": "other",
+      "source_page": 1,
+      "context": "",
+      "confidence": 1.0
+    },
+    {
+      "claim_id": "claim_0009",
+      "text": "EDC Live event generated 80 hours of Snaps submitted",
+      "category": "growth_metrics",
+      "source_page": 1,
+      "context": "",
+      "confidence": 1.0
+    },
+    {
+      "claim_id": "claim_0010",
+      "text": "Rio Live event generated 45 hours of Snaps submitted",
+      "category": "growth_metrics",
+      "source_page": 1,
+      "context": "",
+      "confidence": 1.0
+    },
+    {
+      "claim_id": "claim_0011",
+      "text": "HBO 'Girls' created a 220-second story for Season 3 premiere",
+      "category": "customer_claims",
+      "source_page": 1,
+      "context": "",
+      "confidence": 1.0
+    },
+    {
+      "claim_id": "claim_0012",
+      "text": "GrubHub posts food sequences and promo codes",
+      "category": "customer_claims",
+      "source_page": 1,
+      "context": "",
+      "confidence": 1.0
+    }
+  ],
+  "verified_claims": [
+    {
+      "claim": {
+        "claim_id": "claim_0002",
+        "text": "Over 50 million Snaps viewed daily by end of 2012",
+        "category": "growth_metrics",
+        "source_page": 1,
+        "context": "",
+        "confidence": 1.0
+      },
+      "status": "unable_to_verify",
+      "evidence": [],
+      "verification_summary": "No relevant evidence found through web search. This claim could not be independently verified.",
+      "confidence_score": 0.2,
+      "red_flags": [
+        "No external sources found to verify this claim"
+      ]
+    },
+    {
+      "claim": {
+        "claim_id": "claim_0003",
+        "text": "Over 700 million Snaps viewed daily (July 2014)",
+        "category": "growth_metrics",
+        "source_page": 1,
+        "context": "",
+        "confidence": 1.0
+      },
+      "status": "unable_to_verify",
+      "evidence": [],
+      "verification_summary": "No relevant evidence found through web search. This claim could not be independently verified.",
+      "confidence_score": 0.2,
+      "red_flags": [
+        "No external sources found to verify this claim"
+      ]
+    },
+    {
+      "claim": {
+        "claim_id": "claim_0004",
+        "text": "Over 1 billion Stories viewed daily (July 2014)",
+        "category": "growth_metrics",
+        "source_page": 1,
+        "context": "",
+        "confidence": 1.0
+      },
+      "status": "unable_to_verify",
+      "evidence": [],
+      "verification_summary": "No relevant evidence found through web search. This claim could not be independently verified.",
+      "confidence_score": 0.2,
+      "red_flags": [
+        "No external sources found to verify this claim"
+      ]
+    },
+    {
+      "claim": {
+        "claim_id": "claim_0005",
+        "text": "50% of users are in North America",
+        "category": "growth_metrics",
+        "source_page": 1,
+        "context": "",
+        "confidence": 1.0
+      },
+      "status": "unable_to_verify",
+      "evidence": [],
+      "verification_summary": "No relevant evidence found through web search. This claim could not be independently verified.",
+      "confidence_score": 0.2,
+      "red_flags": [
+        "No external sources found to verify this claim"
+      ]
+    },
+    {
+      "claim": {
+        "claim_id": "claim_0006",
+        "text": "48% of users are aged 13-17",
+        "category": "growth_metrics",
+        "source_page": 1,
+        "context": "",
+        "confidence": 1.0
+      },
+      "status": "unable_to_verify",
+      "evidence": [],
+      "verification_summary": "No relevant evidence found through web search. This claim could not be independently verified.",
+      "confidence_score": 0.2,
+      "red_flags": [
+        "No external sources found to verify this claim"
+      ]
+    },
+    {
+      "claim": {
+        "claim_id": "claim_0009",
+        "text": "EDC Live event generated 80 hours of Snaps submitted",
+        "category": "growth_metrics",
+        "source_page": 1,
+        "context": "",
+        "confidence": 1.0
+      },
+      "status": "unable_to_verify",
+      "evidence": [],
+      "verification_summary": "Skipped to conserve API quota.",
+      "confidence_score": 0.3,
+      "red_flags": []
+    },
+    {
+      "claim": {
+        "claim_id": "claim_0010",
+        "text": "Rio Live event generated 45 hours of Snaps submitted",
+        "category": "growth_metrics",
+        "source_page": 1,
+        "context": "",
+        "confidence": 1.0
+      },
+      "status": "unable_to_verify",
+      "evidence": [],
+      "verification_summary": "Skipped to conserve API quota.",
+      "confidence_score": 0.3,
+      "red_flags": []
+    },
+    {
+      "claim": {
+        "claim_id": "claim_0011",
+        "text": "HBO 'Girls' created a 220-second story for Season 3 premiere",
+        "category": "customer_claims",
+        "source_page": 1,
+        "context": "",
+        "confidence": 1.0
+      },
+      "status": "unable_to_verify",
+      "evidence": [],
+      "verification_summary": "Skipped to conserve API quota.",
+      "confidence_score": 0.3,
+      "red_flags": []
+    },
+    {
+      "claim": {
+        "claim_id": "claim_0012",
+        "text": "GrubHub posts food sequences and promo codes",
+        "category": "customer_claims",
+        "source_page": 1,
+        "context": "",
+        "confidence": 1.0
+      },
+      "status": "unable_to_verify",
+      "evidence": [],
+      "verification_summary": "Skipped to conserve API quota.",
+      "confidence_score": 0.3,
+      "red_flags": []
+    },
+    {
+      "claim": {
+        "claim_id": "claim_0001",
+        "text": "Created in 2011 by Evan Spiegel and Bobby Murphy",
+        "category": "team_background",
+        "source_page": 1,
+        "context": "",
+        "confidence": 1.0
+      },
+      "status": "unable_to_verify",
+      "evidence": [],
+      "verification_summary": "Skipped to conserve API quota.",
+      "confidence_score": 0.3,
+      "red_flags": []
+    },
+    {
+      "claim": {
+        "claim_id": "claim_0007",
+        "text": "Chat and Here features released in May 2014",
+        "category": "other",
+        "source_page": 1,
+        "context": "",
+        "confidence": 1.0
+      },
+      "status": "unable_to_verify",
+      "evidence": [],
+      "verification_summary": "Skipped to conserve API quota.",
+      "confidence_score": 0.3,
+      "red_flags": []
+    },
+    {
+      "claim": {
+        "claim_id": "claim_0008",
+        "text": "Our Story feature launched in July 2014",
+        "category": "other",
+        "source_page": 1,
+        "context": "",
+        "confidence": 1.0
+      },
+      "status": "unable_to_verify",
+      "evidence": [],
+      "verification_summary": "Skipped to conserve API quota.",
+      "confidence_score": 0.3,
+      "red_flags": []
+    }
+  ],
+  "generated_questions": [
+    {
+      "question": "Given Snapchat's initial focus on ephemeral messaging and the substantial growth in daily Stories views, what is your strategy for monetizing this massive content consumption, particularly with a Series A investor who is B2B SaaS/FinTech focused and looking for scalable revenue streams beyond direct-to-consumer advertising?",
+      "category": "business_model",
+      "priority": "high",
+      "rationale": "This question addresses the core business model and revenue generation strategy, which is crucial for a Series A investor. It acknowledges the success in user engagement but pushes for a clear path to profitability that aligns with the investor's B2B SaaS/FinTech background, hinting at potential enterprise solutions or data monetization.",
+      "related_claim_ids": ["claim_0003", "claim_0004"],
+      "personalization_context": "Tailored for B2B SaaS/FinTech investor focus"
+    },
+    {
+      "question": "With 48% of your users aged 13-17, how are you addressing the long-term retention and monetization of this demographic as they mature, and what is your strategy to attract and retain older, more affluent user segments that might be more attractive to B2B advertisers?",
+      "category": "growth_metrics",
+      "priority": "high",
+      "rationale": "Understanding user lifecycle and demographic shifts is vital for sustainable growth. A Series A investor will be concerned about the long-term value of the user base and the ability to command higher advertising rates as users age. This question probes into retention strategies and diversification of the user base.",
+      "related_claim_ids": ["claim_0006"],
+      "personalization_context": "Critical for Series A valuation - user demographics affect monetization potential"
+    },
+    {
+      "question": "The examples of HBO Girls and GrubHub using Snapchat for promotions highlight the platform's potential for brand engagement. What is your roadmap for developing more sophisticated B2B tools and analytics that enable brands to better measure ROI and integrate Snapchat into their broader marketing technology stacks, aligning with B2B SaaS principles?",
+      "category": "product",
+      "priority": "high",
+      "rationale": "This directly targets the investor's B2B SaaS/FinTech focus. It seeks to understand how Snapchat plans to evolve from a consumer-facing app to a platform offering valuable B2B solutions, including analytics and integration capabilities, which are key selling points for SaaS investors.",
+      "related_claim_ids": ["claim_0011", "claim_0012"],
+      "personalization_context": "Aligned with investor's B2B SaaS expertise"
+    },
+    {
+      "question": "Given the significant user base in North America (50%), what are your expansion plans into other key international markets, and what are the projected user acquisition costs and monetization potential in these new regions? How will you adapt your platform and monetization strategies for diverse global markets?",
+      "category": "growth",
+      "priority": "medium",
+      "rationale": "While North America is strong, international expansion is a common growth driver. For a Series A, understanding scalability and market penetration beyond the current stronghold is important. This question also touches on the financial aspects of expansion (CAC, monetization potential).",
+      "related_claim_ids": ["claim_0005"],
+      "personalization_context": "Geographic expansion critical for Series A growth story"
+    },
+    {
+      "question": "The daily volume of Snaps (700 million) and Stories (over 1 billion) viewed is impressive. Can you elaborate on the data insights you gather from this high volume of user interaction, and how do you plan to leverage this data to create valuable, anonymized, and aggregated insights for businesses, potentially in a FinTech-adjacent manner (e.g., trend analysis, consumer behavior patterns)?",
+      "category": "data_monetization",
+      "priority": "medium",
+      "rationale": "This question explores data monetization beyond direct advertising. A FinTech-focused investor might see value in anonymized data insights that can inform market trends or business strategies. It probes the deeper value proposition of the platform's data assets.",
+      "related_claim_ids": ["claim_0003", "claim_0004"],
+      "personalization_context": "FinTech angle - data as a revenue stream"
+    },
+    {
+      "question": "Beyond direct promotional campaigns, how are you exploring opportunities to build recurring revenue streams through B2B partnerships or platform integrations that leverage your core technology and user base? For example, are there opportunities for API-driven services or licensing of your underlying technologies?",
+      "category": "revenue",
+      "priority": "medium",
+      "rationale": "This question aims to uncover potential for more diversified and predictable revenue models, moving beyond campaign-based advertising. It aligns with the B2B SaaS/FinTech focus by exploring recurring revenue opportunities and platform-as-a-service possibilities, which are attractive to investors seeking sustainable growth.",
+      "related_claim_ids": [],
+      "personalization_context": "SaaS-style recurring revenue exploration"
+    }
+  ],
+  "executive_summary": "Analysis of Snapchat's 2014 pitch deck reveals strong growth metrics (700M daily Snaps, 1B Stories views) but significant verification gaps. The young user demographic (48% aged 13-17) presents monetization challenges. Key concerns include lack of revenue model clarity and competitive defensibility against Facebook/Instagram.",
+  "risk_assessment": "Potential concerns identified:\n\u2022 No external sources found to verify this claim\n\u2022 No external sources found to verify this claim\n\u2022 No external sources found to verify this claim\n\u2022 No external sources found to verify this claim\n\u2022 No external sources found to verify this claim",
+  "overall_verification_score": 0.10333333333333335
+}

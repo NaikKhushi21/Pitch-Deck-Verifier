@@ -1,0 +1,43 @@
+# Sago Pitch Deck Verifier
+# Core dependencies
+
+# PDF Processing
+pypdf2==3.0.1
+pdfplumber==0.10.3
+
+# AI/LLM Providers
+openai==1.6.1
+anthropic==0.8.1
+google-generativeai==0.8.3  # For Gemini API
+
+# Web Search & Verification
+requests==2.31.0
+beautifulsoup4==4.12.2
+duckduckgo-search==4.1.1
+tavily-python==0.3.3  # Free tier: 1,000 searches/month
+
+# Email (SMTP - built into Python, no extra package needed!)
+# Gmail OAuth (optional - only if you want OAuth)
+google-api-python-client==2.111.0
+google-auth==2.25.2
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+
+# Slack Integration
+slack-sdk==3.23.0
+
+# Data Processing
+pandas==2.1.4
+python-dateutil==2.8.2
+
+# Environment & Config
+python-dotenv==1.0.0
+pydantic==2.5.3
+
+# CLI & Formatting
+rich==13.7.0
+typer==0.9.0
+
+# Web Framework
+flask==3.0.0
+werkzeug==3.0.1

@@ -1,0 +1,74 @@
+# Sago Pitch Verifier .gitignore
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
+# Credentials (never commit these!)
+credentials/
+*.json
+!samples/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# Output files (generated analyses)
+output/
+results/
+*.analysis.json
+uploads/
+reports/
+Pitch_Deck_Analysis_Report.pdf
+Pitch_Deck_Analysis_Report.html
+
+# Pitch decks (don't commit confidential documents)
+*.pdf
+!samples/*.pdf
+!docs/*.pdf
+

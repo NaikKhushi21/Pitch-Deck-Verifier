@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sago Pitch Deck Verifier</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔍 Pitch Deck Verifier</h1>
+            <p class="subtitle">AI-powered pitch deck analysis and verification</p>
+        </header>
+
+        <main>
+            <!-- Upload Section -->
+            <section id="upload-section" class="card">
+                <h2>Upload Pitch Deck</h2>
+                <form id="upload-form" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="file">Select PDF File</label>
+                        <div class="file-upload-wrapper">
+                            <input type="file" id="file" name="file" accept=".pdf" required>
+                            <label for="file" class="file-label">
+                                <span class="file-icon">📄</span>
+                                <span class="file-text">Choose PDF file or drag it here</span>
+                            </label>
+                        </div>
+                        <div id="file-name" class="file-name"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email (optional - to receive report)</label>
+                        <input type="email" id="email" name="email" placeholder="your.email@example.com">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="investor_name">Your Name</label>
+                            <input type="text" id="investor_name" name="investor_name" placeholder="Investor Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="investment_stage">Investment Stage</label>
+                            <select id="investment_stage" name="investment_stage">
+                                <option value="Seed">Seed</option>
+                                <option value="Series A" selected>Series A</option>
+                                <option value="Series B">Series B</option>
+                                <option value="Series C+">Series C+</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="focus_areas">Focus Areas (comma-separated)</label>
+                        <input type="text" id="focus_areas" name="focus_areas" placeholder="B2B SaaS, FinTech, AI/ML">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" id="submit-btn">
+                        <span class="btn-text">Analyze Pitch Deck</span>
+                        <span class="btn-loader" style="display: none;">⏳ Processing...</span>
+                    </button>
+                </form>
+            </section>
+
+            <!-- Progress Section -->
+            <section id="progress-section" class="card" style="display: none;">
+                <h2>Analysis Progress</h2>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                    <div class="progress-text" id="progress-text">0%</div>
+                </div>
+                <p class="progress-message" id="progress-message">Starting analysis...</p>
+                <div class="progress-actions" style="margin-top: 20px;">
+                    <button class="btn btn-secondary" onclick="cancelAndReset()" id="cancel-btn">
+                        ← Cancel & Go Back
+                    </button>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section id="results-section" class="card" style="display: none;">
+                <h2>Analysis Complete! 🎉</h2>
+                <div class="results-summary" id="results-summary"></div>
+                <div class="results-actions">
+                    <button class="btn btn-primary" id="download-btn">
+                        📥 Download PDF Report
+                    </button>
+                    <button class="btn btn-secondary" id="view-btn">
+                        👁️ View Report
+                    </button>
+                </div>
+                <div style="margin-top: 15px; text-align: center;">
+                    <button class="btn btn-secondary" onclick="resetForm()">
+                        ← Back to Upload
+                    </button>
+                </div>
+            </section>
+
+            <!-- Error Section -->
+            <section id="error-section" class="card error-card" style="display: none;">
+                <h2>❌ Error</h2>
+                <p id="error-message"></p>
+                <div class="error-actions" style="text-align: center; margin-top: 20px;">
+                    <button class="btn btn-secondary" onclick="resetForm()">← Back to Upload</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Powered by Sago AI • Pitch Deck Verification & Question Generation</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
