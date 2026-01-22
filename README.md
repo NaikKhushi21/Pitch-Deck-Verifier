@@ -1,4 +1,4 @@
-# Sago Pitch Deck Verifier 🔍
+# Pitch Deck Verifier 🔍
 
 **An AI-powered agent that verifies pitch deck claims and generates personalized investor questions.**
 
