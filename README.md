@@ -302,16 +302,5 @@ flake8 src/
 - [ ] Comparison with portfolio companies
 - [ ] Historical tracking of startup progress
 
----
-
-## 📄 License
-
-MIT License - see LICENSE file
-
----
-
-## 👤 Author
-
-Built for Sago Assessment by [Your Name]
 
 *This is a prototype implementation demonstrating the core concepts. Not intended for production use without further development.*
